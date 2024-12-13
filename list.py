@@ -10,4 +10,3 @@ print(mevalar[1])
 print(mevalar[2])
 print(mevalar[3])
 print(mevalar)
-
