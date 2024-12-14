@@ -10,3 +10,8 @@ print(mevalar[1])
 print(mevalar[2])
 print(mevalar[3])
 print(mevalar)
+# # katta hariflar bilan chiqarib beradi # #
+print(mevalar[0].upper()) 
+print(mevalar[1].title())
+print(mevalar[2].lower())
+print(mevalar[3].capitalize())
