@@ -8,8 +8,12 @@ mevalar = [
 ]
 # # sorted bu ruyatga tegmasdan tartib lab chiqaradi listni 
 
-print(sorted(mevalar))
+print(sorted(mevalar, reverse=True))
 
 ## agar listni tatiblash uchun 
 mevalar.sort()
+print(f" mevalar {mevalar}")
+
+mevalar.sort(reverse=True)
+
 print(f" mevalar {mevalar}")
