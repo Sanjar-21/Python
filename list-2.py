@@ -29,3 +29,7 @@ print(f"\tmax {katta} \n\tmin {mayda}")
 num = sum(sonlar)
 print(num)
 print(sonlar[0:4])
+
+# # tupls
+meva = ('olma', 'gilos', 'anjir', 'hurmo'); print(meva)
+print(type(meva))
