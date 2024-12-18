@@ -8,7 +8,9 @@ mevalar = [
 ]
 # # sorted bu ruyatga tegmasdan tartib lab chiqaradi listni 
 
-print(sorted(mevalar, reverse=True))
+print(sorted(mevalar))
+# # ruyhatdan tegmasdan teskarisga chiqarish
+print(sorted(mevalar, reverse=True)) 
 
 ## agar listni tatiblash uchun 
 mevalar.sort()
