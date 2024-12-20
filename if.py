@@ -10,3 +10,10 @@ if ism.lower() != 'ali':
     print(f"uzir {ism}, biz alini kutyabmiz")
 else:
     print(f"salom {ism}")
+
+
+yosh = int(input("Yoshingizni kirtig: "))
+if yosh <= 18:
+    print(f"sizga mumkinmas")
+else:
+    print(f"salom hushkelibsiz")
