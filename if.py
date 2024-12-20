@@ -4,3 +4,9 @@ for avto in avtolar:
         print(avto.upper())
     else:
         print(avto.title())
+
+ism = input("ismigzni kritig: ")
+if ism.lower() != 'ali':
+    print(f"uzir {ism}, biz alini kutyabmiz")
+else:
+    print(f"salom {ism}")
