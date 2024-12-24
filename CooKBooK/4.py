@@ -1,4 +1,4 @@
-from collections import defaultdict
+from collections import defaultdict # defaultdict
 d = defaultdict(list)
 d['a'].append(1)
 d['a'].append(2)
@@ -12,5 +12,14 @@ a = defaultdict(set)
 a['a'].add(1)
 a['a'].add(2)
 a['b'].add(4)
-print(a)
+print(a['a'])
 print(type(a))
+
+a = {} # setdefault
+a.setdefault('a', []).append(1)
+a.setdefault('a', []).append(2)
+a.setdefault('a', []).append(3)
+a.setdefault('b', []).append(4)
+a.setdefault('b', []).append(5)
+
+print(a['a'])
