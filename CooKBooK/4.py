@@ -1,0 +1,16 @@
+from collections import defaultdict
+d = defaultdict(list)
+d['a'].append(1)
+d['a'].append(2)
+d['a'].append(3)
+d['b'].append(4)
+d['b'].append(5)
+print(d)
+print(type(d))
+
+a = defaultdict(set)
+a['a'].add(1)
+a['a'].add(2)
+a['b'].add(4)
+print(a)
+print(type(a))
