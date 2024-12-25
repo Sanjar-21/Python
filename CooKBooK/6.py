@@ -19,6 +19,13 @@ print(min(prices_and_name))
 
 print(min(prices))
 print(max(prices))
+min_key = min(prices, key=lambda k: prices[k])
+max_key = max(prices, key=lambda k: prices[k])
+print(f"min topish prices {min_key} \nmax topish prices {max_key}")
+# valusini sal bashqacharoq topiladi
+min_valu = prices[min(prices, key=lambda k: prices[k])]
+max_valu = prices[max(prices, key=lambda k: prices[k])]
+print(f"min valu {min_valu}\nmax valu {max_valu}")
 
-print(min(prices.values()))
-print(max(prices.keys()))
+# print(min(prices.values())) # bu yilar ham bor shularni ishlatishsa ham buladi
+# print(max(prices.keys())) # bu yilar ham bor shularni ishlatishsa ham buladi
